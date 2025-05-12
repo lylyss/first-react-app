@@ -1,8 +1,7 @@
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-
 import Navbar from "./components/Navbar";
-import Section from "./components/Body";
+import Section from "./components/Section";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -10,7 +9,7 @@ const App = () => {
     <div className="d-flex flex-column min-vh-100">
       <Navbar imageSrc={reactLogo} />
 
-      <Body />
+      <Section />
 
       <Footer />
     </div>
